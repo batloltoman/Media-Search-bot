@@ -103,7 +103,7 @@ async def start(bot, cmd):
                         
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("🍊About", callback_data="about")
                     ]
                 ]
             )
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/cp_renegade'),
+            InlineKeyboardButton('🍒Update Channel', url='https://t.me/cp_renegade'),
             
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nRequest Zone : <a href='https://t.me/tray_resource'>Click here</a>\nUpdate Channel : <a href='https://t.me/cp_renegade'>Renegades</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
